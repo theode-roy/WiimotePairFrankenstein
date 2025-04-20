@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B996B9A12B6D86AC00E50C3B /* WiimotePair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiimotePair.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B996B9A12B6D86AC00E50C3B /* WiimotePairFrankenstein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiimotePairFrankenstein.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B996B9A42B6D86AC00E50C3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B996B9A52B6D86AC00E50C3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B996B9A72B6D86AC00E50C3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		B996B9A22B6D86AC00E50C3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B996B9A12B6D86AC00E50C3B /* WiimotePair.app */,
+				B996B9A12B6D86AC00E50C3B /* WiimotePairFrankenstein.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,9 +80,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B996B9A02B6D86AC00E50C3B /* WiimotePair */ = {
+		B996B9A02B6D86AC00E50C3B /* WiimotePairFrankenstein */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B996B9B42B6D86AF00E50C3B /* Build configuration list for PBXNativeTarget "WiimotePair" */;
+			buildConfigurationList = B996B9B42B6D86AF00E50C3B /* Build configuration list for PBXNativeTarget "WiimotePairFrankenstein" */;
 			buildPhases = (
 				B996B99D2B6D86AC00E50C3B /* Sources */,
 				B996B99E2B6D86AC00E50C3B /* Frameworks */,
@@ -92,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = WiimotePair;
+			name = WiimotePairFrankenstein;
 			productName = WiimotePair;
-			productReference = B996B9A12B6D86AC00E50C3B /* WiimotePair.app */;
+			productReference = B996B9A12B6D86AC00E50C3B /* WiimotePairFrankenstein.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B996B9A02B6D86AC00E50C3B /* WiimotePair */,
+				B996B9A02B6D86AC00E50C3B /* WiimotePairFrankenstein */,
 			);
 		};
 /* End PBXProject section */
@@ -288,10 +288,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WiimotePair/WiimotePair.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = 97835T4369;
+				DEVELOPMENT_TEAM = 7Z88K9GUU8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -305,7 +306,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.dolphin-emu.WiimotePair";
+				PRODUCT_BUNDLE_IDENTIFIER = theoderoy.WiimotePairFrankenstein;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
@@ -317,10 +318,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WiimotePair/WiimotePair.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = 97835T4369;
+				DEVELOPMENT_TEAM = 7Z88K9GUU8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -334,7 +336,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.dolphin-emu.WiimotePair";
+				PRODUCT_BUNDLE_IDENTIFIER = theoderoy.WiimotePairFrankenstein;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
@@ -352,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B996B9B42B6D86AF00E50C3B /* Build configuration list for PBXNativeTarget "WiimotePair" */ = {
+		B996B9B42B6D86AF00E50C3B /* Build configuration list for PBXNativeTarget "WiimotePairFrankenstein" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B996B9B52B6D86AF00E50C3B /* Debug */,

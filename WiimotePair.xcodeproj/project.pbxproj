@@ -301,7 +301,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to connect to Wii Remotes.";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024+ Dolphin Team. \"Wii\" is a trademark of Nintendo. Dolphin is not affiliated with Nintendo in any way.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Dolphin Team. \"Wii\" is a trademark of Nintendo. Dolphin is not affiliated with Nintendo in any way.";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -331,7 +331,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to connect to Wii Remotes.";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024+ Dolphin Team. \"Wii\" is a trademark of Nintendo. Dolphin is not affiliated with Nintendo in any way.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 Dolphin Team. \"Wii\" is a trademark of Nintendo. Dolphin is not affiliated with Nintendo in any way.";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (

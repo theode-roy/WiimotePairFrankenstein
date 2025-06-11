@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		B996B9A62B6D86AC00E50C3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B996B9A52B6D86AC00E50C3B /* AppDelegate.m */; };
 		B996B9A92B6D86AC00E50C3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B996B9A82B6D86AC00E50C3B /* ViewController.m */; };
-		B996B9AB2B6D86AF00E50C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B996B9AA2B6D86AF00E50C3B /* Assets.xcassets */; };
 		B996B9AE2B6D86AF00E50C3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B996B9AC2B6D86AF00E50C3B /* Main.storyboard */; };
 		B996B9B02B6D86AF00E50C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B996B9AF2B6D86AF00E50C3B /* main.m */; };
 		B996B9BB2B70494F00E50C3B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B996B9BA2B70494F00E50C3B /* Credits.rtf */; };
+		F0015D582DFA094F00EABB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0015D572DFA094F00EABB6D /* Assets.xcassets */; };
+		F03F174A2DF9CCF6002C7DD2 /* Bloempotje.icon in Resources */ = {isa = PBXBuildFile; fileRef = F03F17492DF9CCF6002C7DD2 /* Bloempotje.icon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +22,6 @@
 		B996B9A52B6D86AC00E50C3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B996B9A72B6D86AC00E50C3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B996B9A82B6D86AC00E50C3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B996B9AA2B6D86AF00E50C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B996B9AD2B6D86AF00E50C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B996B9AF2B6D86AF00E50C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B996B9B12B6D86AF00E50C3B /* WiimotePair.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WiimotePair.entitlements; sourceTree = "<group>"; };
@@ -29,6 +29,8 @@
 		B996B9B82B6DA60400E50C3B /* IOBluetoothDevice+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOBluetoothDevice+Private.h"; sourceTree = "<group>"; };
 		B996B9B92B6DA62B00E50C3B /* IOBluetoothDevicePair+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOBluetoothDevicePair+Private.h"; sourceTree = "<group>"; };
 		B996B9BA2B70494F00E50C3B /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		F0015D572DFA094F00EABB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F03F17492DF9CCF6002C7DD2 /* Bloempotje.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = Bloempotje.icon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +70,12 @@
 				B996B9B92B6DA62B00E50C3B /* IOBluetoothDevicePair+Private.h */,
 				B996B9A72B6D86AC00E50C3B /* ViewController.h */,
 				B996B9A82B6D86AC00E50C3B /* ViewController.m */,
-				B996B9AA2B6D86AF00E50C3B /* Assets.xcassets */,
 				B996B9BA2B70494F00E50C3B /* Credits.rtf */,
 				B996B9AC2B6D86AF00E50C3B /* Main.storyboard */,
 				B996B9AF2B6D86AF00E50C3B /* main.m */,
 				B996B9B12B6D86AF00E50C3B /* WiimotePair.entitlements */,
+				F03F17492DF9CCF6002C7DD2 /* Bloempotje.icon */,
+				F0015D572DFA094F00EABB6D /* Assets.xcassets */,
 			);
 			path = WiimotePair;
 			sourceTree = "<group>";
@@ -134,8 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B996B9AB2B6D86AF00E50C3B /* Assets.xcassets in Resources */,
 				B996B9BB2B70494F00E50C3B /* Credits.rtf in Resources */,
+				F03F174A2DF9CCF6002C7DD2 /* Bloempotje.icon in Resources */,
+				F0015D582DFA094F00EABB6D /* Assets.xcassets in Resources */,
 				B996B9AE2B6D86AF00E50C3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,13 +289,13 @@
 		B996B9B52B6D86AF00E50C3B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = Bloempotje;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WiimotePair/WiimotePair.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = HFX0;
 				DEVELOPMENT_TEAM = 7Z88K9GUU8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -305,7 +309,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = theoderoy.WiimotePairFrankenstein;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -315,13 +319,13 @@
 		B996B9B62B6D86AF00E50C3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = Bloempotje;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WiimotePair/WiimotePair.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = HFX0;
 				DEVELOPMENT_TEAM = 7Z88K9GUU8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -335,7 +339,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = theoderoy.WiimotePairFrankenstein;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

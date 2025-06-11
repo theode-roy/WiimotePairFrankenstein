@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B996B9A12B6D86AC00E50C3B /* WiimotePairFrankenstein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiimotePairFrankenstein.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B996B9A12B6D86AC00E50C3B /* Bloempotje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bloempotje.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B996B9A42B6D86AC00E50C3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B996B9A52B6D86AC00E50C3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B996B9A72B6D86AC00E50C3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		B996B9A22B6D86AC00E50C3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B996B9A12B6D86AC00E50C3B /* WiimotePairFrankenstein.app */,
+				B996B9A12B6D86AC00E50C3B /* Bloempotje.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,9 +83,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B996B9A02B6D86AC00E50C3B /* WiimotePairFrankenstein */ = {
+		B996B9A02B6D86AC00E50C3B /* Bloempotje */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B996B9B42B6D86AF00E50C3B /* Build configuration list for PBXNativeTarget "WiimotePairFrankenstein" */;
+			buildConfigurationList = B996B9B42B6D86AF00E50C3B /* Build configuration list for PBXNativeTarget "Bloempotje" */;
 			buildPhases = (
 				B996B99D2B6D86AC00E50C3B /* Sources */,
 				B996B99E2B6D86AC00E50C3B /* Frameworks */,
@@ -95,9 +95,9 @@
 			);
 			dependencies = (
 			);
-			name = WiimotePairFrankenstein;
+			name = Bloempotje;
 			productName = WiimotePair;
-			productReference = B996B9A12B6D86AC00E50C3B /* WiimotePairFrankenstein.app */;
+			productReference = B996B9A12B6D86AC00E50C3B /* Bloempotje.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B996B9A02B6D86AC00E50C3B /* WiimotePairFrankenstein */,
+				B996B9A02B6D86AC00E50C3B /* Bloempotje */,
 			);
 		};
 /* End PBXProject section */
@@ -358,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B996B9B42B6D86AF00E50C3B /* Build configuration list for PBXNativeTarget "WiimotePairFrankenstein" */ = {
+		B996B9B42B6D86AF00E50C3B /* Build configuration list for PBXNativeTarget "Bloempotje" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B996B9B52B6D86AF00E50C3B /* Debug */,

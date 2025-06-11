@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="24093.7" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="24093.7"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -12,25 +12,18 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="WiimotePair" id="1Xt-HY-uBw">
+                            <menuItem title="Bloempotje" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="WiimotePair" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="Bloempotje" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About WiimotePair" id="5kV-Vb-QxS">
+                                        <menuItem title="About Bloempotje" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
-                                        <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
-                                        <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
-                                        <menuItem title="Services" id="NMo-om-nkz">
-                                            <modifierMask key="keyEquivalentModifierMask"/>
-                                            <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
-                                        </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide WiimotePair" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide WiimotePair" keyEquivalent="h" id="Olw-nP-bQN" userLabel="Hide Bloempotje">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -48,7 +41,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit WiimotePair" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit WiimotePair" keyEquivalent="q" id="4sb-4s-VLi" userLabel="Quit Bloempotje">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -72,10 +65,10 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="WiimotePair" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="WiimotePair" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA" userLabel="Bloempotje">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="396" height="175"/>
+                        <rect key="contentRect" x="196" y="240" width="410" height="209"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                         <connections>
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
@@ -87,7 +80,7 @@
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="101" y="200.5"/>
+            <point key="canvasLocation" x="101" y="207"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
@@ -115,7 +108,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" alignment="center" id="uuN-fB-a1n">
                                     <font key="font" metaFont="system"/>
-                                    <string key="title">Press the 🔴 SYNC button on the back of your Wii Remote now.
+                                    <string key="title">Press the (red) SYNC button on the back of your Wii Remote now.
 
 (You may need to remove the battery cover to access the button.)
 
